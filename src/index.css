@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: all .4s ease;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+.conatiner-box{
+  z-index: 10;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
